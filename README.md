@@ -9,11 +9,12 @@
 5. use `npx create-react-app .`
 6. use `npm install -D tailwindcss postcss autoprefixer`
 7. use `npx tailwindcss init -p`
-8. add these lines:
+8. add these lines to src/index.css:
+```
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-to src/index.css
+```
 9. use `npm install gh-pages --save-dev`
 10. Add the following scripts to your package.json:
 * dont forget to Replace <username> with your GitHub username and <repository-name> with the name of your GitHub repository.
