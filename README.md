@@ -1,6 +1,6 @@
 # Getting Started with Create React App with Tailwind
 
-in order to initialize react app with tailwind we will do the following:
+## in order to initialize react app with tailwind we will do the following:
 
 1. create a new repository
 2. open github desktop and clone the new repo to local folder
@@ -26,6 +26,7 @@ to src/index.css
 "homepage": "http://<username>.github.io/<repository-name>",
 ```
 11. replace the content in tailwind.config.js to : 
+```
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
@@ -38,15 +39,15 @@ module.exports = {
   },
   plugins: [],
 };
-
+```
 12. commit and push using the github desktop
 13. use `npm run deploy`
 14. now it is in the github pages. 
 
-#in order to view the site local: 
+## in order to view the site local: 
 1. use `npm start`
 
-# in order to update the code in github 
+## in order to update the code in github 
 1. make the changes you want
 2. commit and push 
 3. use `npm run deploy`
