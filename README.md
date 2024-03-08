@@ -16,13 +16,15 @@ in order to initialize react app with tailwind we will do the following:
 to src/index.css
 9. use `npm install gh-pages --save-dev`
 10. Add the following scripts to your package.json:
-*dont forget to Replace <username> with your GitHub username and <repository-name> with the name of your GitHub repository.
+* dont forget to Replace <username> with your GitHub username and <repository-name> with the name of your GitHub repository.
+```
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
   ...
 },
 "homepage": "http://<username>.github.io/<repository-name>",
+```
 11. replace the content in tailwind.config.js to : 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
